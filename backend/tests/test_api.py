@@ -11,6 +11,7 @@ os.environ["DATABASE_URL"] = f"sqlite:///{_test_db}"
 os.environ["FRONTEND_ORIGIN"] = "http://localhost:3000"
 
 from fastapi.testclient import TestClient
+os.environ["SUPABASE_URL"] = "https://pantrychef-test.supabase.co"
 from app.main import app
 
 
