@@ -1,0 +1,9 @@
+@import "tailwindcss";
+:root { color-scheme: dark; }
+body { background:#0b1110; color:#f3f5f1; font-family:Arial,Helvetica,sans-serif; }
+input,select,textarea { background:#17221d; border:1px solid #385044; border-radius:10px; padding:10px 12px; color:white; }
+button { cursor:pointer; }
+.primary { background:#e7a94e; color:#151a13; font-weight:700; border-radius:10px; padding:10px 16px; }
+.secondary { border:1px solid #516456; border-radius:10px; padding:9px 14px; }
+.panel { background:#142019; border:1px solid #304238; border-radius:16px; padding:20px; }
+a:hover { color:#f3b65d; }
