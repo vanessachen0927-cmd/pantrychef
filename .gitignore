@@ -22,3 +22,4 @@ out/
 
 # Local files
 .DS_Store*.backup
+*.backup
